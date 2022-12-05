@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String
 from db import Base, engine
 
-
+# создаем таблицу
 class User(Base):
     __tablename__ = "users"
 
