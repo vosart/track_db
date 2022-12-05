@@ -1,6 +1,6 @@
 from db import db_session
 from models import User
 
-user = User(name='Frosya Burlakova', salary=15000, email='fburlak_top@gmail.com')
+user = User(name='Aduma Takashi', salary=75000, email='adzuma_takashi@gmail.com')
 db_session.add(user)
 db_session.commit()
